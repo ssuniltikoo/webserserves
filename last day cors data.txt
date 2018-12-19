@@ -1,0 +1,20 @@
+Angular - 7
+
+1) Node Js -How to install NodeJs -Site
+2) Angular CLI - npm install @angular/cli -g
+3) VS code 
+4) Create an angular project using ng CLI commands
+5) ng new myproject and to open the project in vs code just give 
+   the code . command in command prompt 
+6) to run the project npm start or ng serve
+7) npm install bootstrap@3 command
+8) add the path for bootstrap in angular.json file
+9) To create an new component
+10) ng g c component/home
+11)
+ headers: new HttpHeaders({ 
+    'Access-Control-Allow-Origin':'http://localhost:8080/',
+    'Access-Control-Allow-Headers':'X-Requested-With, Content-Type, Accept, Origin, Authorization',
+    'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
+    'Access-Control-Allow-Credentials': 'true' 
+  })
